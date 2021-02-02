@@ -1,0 +1,17 @@
+
+
+html{
+    background-color: lightsteelblue
+}
+
+nav{
+    height: fit-content;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#logo{
+    height: 30px;
+}
