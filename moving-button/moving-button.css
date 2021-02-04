@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lightsteelblue;
+    font-family: 'Staatliches', cursive;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 185px;
+    margin-top: 10px;
+    letter-spacing: 6px;
+    color: #3C3B6E;
+    text-shadow: 1.5px 3px black;
+    text-decoration: none;
+    padding-top: 0px;
+    align-self: start;
+    margin-bottom: 0;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    font-size: 20px;
+    text-shadow: none;
+    margin-bottom: 0;
+}
+
+#mcgovern{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #bd5965;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 10px;
+    align-items: center;
+    text-decoration: none;
+    text-shadow: none;
+    letter-spacing: 0px;
+    transition: all .5s;
+}

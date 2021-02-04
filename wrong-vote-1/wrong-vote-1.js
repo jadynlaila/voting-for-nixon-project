@@ -8,11 +8,23 @@ function toggleText(){
 
 let mcgovern = document.getElementById("mcgovern");
 console.log(mcgovern);
-// mcgovern.addEventListener("mouseenter", function(event) {
-//     event.target.style.color = "red";
 
-//     setTimeout(function() {
-//         event.target.style.color = "#bd5965";
+function wrongChoice(){
+    alert("We detected that you may have made the wrong choice. Try again");
+    this.removeEventListener("click", wrongChoice);
+    this.addEventListener("click", areYouSure);
+}
 
-//     },500);
-// }
+function areYouSure(){
+    alert("Hmm.. lets try something else. Click OK to move on");
+
+    this.removeEventListener("click", areYouSure);
+    this.addEventListener("click", link());
+}
+
+function link(){
+    this.location.href="../moving-button/moving-button.html";
+    this.removeEventListener("click", link);
+}
+
+mcgovern.addEventListener("click", wrongChoice);
