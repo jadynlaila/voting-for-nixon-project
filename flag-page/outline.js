@@ -30,4 +30,7 @@
 
 //////make div that is the same height as margin top, use that as print space instead of alerts
 ///learn how to style alerts
-///gonna be hard but make a nixon button appear when u click on the mcgovern one and then make them switch spots basically ... gonna have to create the button then make it not hidden when i click on the mcgovern button ONLY THE FIRST TIME  and then make the coords of the mcgovern button randomize and give the mcgovern z-index 
+///make the on page laod event an aleert that i styled that says that youll get $500 for voting for nixon
+///on page load event page you can make a loop when people click on the mcgovern button that makes some type of pic show up below hte button with a loop and then text that you can click on that includes a hyperlink to the next page "lets try again..."
+//or on the nixon vote page can put the chika dance girl oh yea
+///when page loads, fade in the alert that just says warning. then have a mouse over event that will make it open to read the full text and then the mouse leave will set it back to normal 

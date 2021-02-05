@@ -28,11 +28,12 @@ function moveAfterHover() {
     console.log(randyCoord1);
     console.log(randyCoord2);
     if (hoverCount <= 7) {
-        
+        this.style.transform = `translate(${randyCoord1}px, ${randyCoord2}px)`;
+        console.log('hello');
 
         hoverCount++;
 
     }   
 }
 
-mcgovern.addEventListener("click", moveAfterHover);
+mcgovern.addEventListener("mouseover", moveAfterHover);

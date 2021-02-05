@@ -28,3 +28,10 @@ function link(){
 }
 
 mcgovern.addEventListener("click", wrongChoice);
+
+function mcgovernFrown(){
+    this.style.cursor = `crosshair, pointer;`
+    console.log("this is working");
+}
+
+mcgovern.addEventListener("mouseenter", mcgovernFrown);
