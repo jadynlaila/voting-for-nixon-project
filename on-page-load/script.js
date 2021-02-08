@@ -23,11 +23,22 @@ function getSmaller(){
     alert.style.width="225px";
     alert.style.color="#bd5965";
     alert.style.transition="all 3s";
-    alert.style.padding="0 5px 0 25px"
+    alert.style.padding="0 5px 0 25px";
 }
 
+
+
+function mcgovernRight(){
+    window.location.href="https://en.wikipedia.org/wiki/George_McGovern";
+}
+
+function nixonRight(){
+    window.location.href="https://en.wikipedia.org/wiki/Richard_Nixon";
+}
+
+mcgovern.addEventListener("contextmenu", mcgovernRight);
+nixon.addEventListener("contextmenu", nixonRight);
 closebtn.addEventListener("click", closeButton);
 window.addEventListener('load', whenLoad);
 alert.addEventListener("mouseenter", getLarger);
 alert.addEventListener("mouseleave", getSmaller);
-

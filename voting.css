@@ -85,3 +85,10 @@ h1{
     align-items: center;
     text-decoration: none;
 }
+
+
+#moreInfo{
+    display: flex;
+    color: #3C3B6E;
+    justify-content: center;
+}

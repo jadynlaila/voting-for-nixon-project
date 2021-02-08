@@ -1,27 +1,50 @@
-*, *::after, *::before{
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     background-color: lightsteelblue;
     font-family: 'Staatliches', cursive;
 }
 
 h1{
+    margin: 200px 0 0 0;
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 50px;
-    margin-top: 200px;
     letter-spacing: 4px;
     color: #3C3B6E;
     text-shadow: 1.5px 3px black;
 }
+
+#alert {
+    height: 60px;
+    justify-content: center;
+    margin: auto auto;
+    width: 800px;
+    padding: 0 5px;
+    font-size: 20px;
+    color: #bd5965;
+    background-color: rgb(223, 232, 245);
+    border-radius: 5px;
+    border: 2px #bd5965 solid;
+    display: none;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 120px;
+    /* subtract height from the height of the alert and make it margin top */
+}
+
+#alert span{
+    font-size: 5px;
+    justify-content: end;
+}
 /* 100d5ac0 */
 
-#goAgain{
+#goAgain {
     display: flex;
     justify-content: center;
     margin-right: auto;
@@ -35,15 +58,15 @@ h1{
     width: 350px;
     align-items: center;
     color: #3C3B6E;
-
 }
-#afterClick{
+
+#afterClick {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
 
-#nixon{
+#nixon {
     margin-top: 50px;
     width: 1000px;
     height: 70px;
@@ -63,7 +86,7 @@ h1{
     align-items: center;
 }
 
-#mcgovern{
+#mcgovern {
     width: 1000px;
     height: 70px;
     border-radius: 25px;
@@ -80,5 +103,4 @@ h1{
     align-items: center;
     text-decoration: none;
     cursor: url(""), pointer;
-
 }

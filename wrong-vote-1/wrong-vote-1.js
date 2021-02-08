@@ -8,11 +8,18 @@ function toggleText(){
 
 let mcgovern = document.getElementById("mcgovern");
 console.log(mcgovern);
+let alert= document.getElementById("alert");
+let h1 = document.getElementById("hone");
+let okButton = document.getElementById("okButton");
 
 function wrongChoice(){
-    alert("We detected that you may have made the wrong choice. Try again");
-    this.removeEventListener("click", wrongChoice);
-    this.addEventListener("click", areYouSure);
+    alert.style.display='flex';
+    h1.style.margin="0";
+    // alert("We detected that you may have made the wrong choice. Try again");
+    // this.removeEventListener("click", wrongChoice);
+    // this.addEventListener("click", areYouSure);
+    ///gonna make a div space equal to the top margin and then make that an alert that when you click it clears the stuff below try again and puts a canvas instead
+
 }
 
 function areYouSure(){
@@ -27,11 +34,21 @@ function link(){
     this.removeEventListener("click", link);
 }
 
-mcgovern.addEventListener("click", wrongChoice);
 
-function mcgovernFrown(){
-    this.style.cursor = `crosshair, pointer;`
-    console.log("this is working");
+function mcgovernRight(){
+    window.location.href="https://en.wikipedia.org/wiki/George_McGovern";
 }
 
-mcgovern.addEventListener("mouseenter", mcgovernFrown);
+function nixonRight(){
+    window.location.href="https://en.wikipedia.org/wiki/Richard_Nixon";
+}
+
+function openSignatureSpace(){
+
+}
+
+mcgovern.addEventListener("contextmenu", mcgovernRight);
+nixon.addEventListener("contextmenu", nixonRight);
+mcgovern.addEventListener("click", wrongChoice);
+okButton.addEventListener("click", openSignatureSpace);
+
