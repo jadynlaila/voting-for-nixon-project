@@ -1,0 +1,31 @@
+
+html{
+    background-color: rgb(243, 243, 243);
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+h2{
+    text-align: center;
+    margin: 5px;
+    color: gray;
+}
+
+span{
+    color: rgba(255, 0, 0, 0.63);
+}
+
+#error{
+    color: rgb(90, 90, 90);
+    padding-top: 30px;
+}
+
+#like{
+    font-size: 20px;
+}

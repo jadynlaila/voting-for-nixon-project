@@ -84,6 +84,8 @@ h1{
     text-align: center;
     display: flex;
     align-items: center;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😊</text></svg>"), pointer;
+    
 }
 
 #mcgovern {
@@ -102,5 +104,32 @@ h1{
     display: flex;
     align-items: center;
     text-decoration: none;
-    cursor: url(""), pointer;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😥</text></svg>"), pointer;
+    
+}
+
+
+#spaceSubmit{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    display: none;
+    justify-content: end;
+}
+
+#space{
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    display: none;
+    border: solid 2px #100d5ac0;
+    border-radius: 5px;
+}
+
+#submitSignature{
+    display: flex;
+    z-index: 10;
+    position: relative;
+    right: 35px;
+    top: 275px;
 }

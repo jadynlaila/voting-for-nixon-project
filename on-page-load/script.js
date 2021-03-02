@@ -1,6 +1,8 @@
 
 let alert = document.getElementById("alert")
-let closebtn = document.getElementById("closebtn");
+
+let nixon = document.getElementById('nixon');
+
 
 function whenLoad(){
     alert.style.display="flex";
@@ -8,9 +10,7 @@ function whenLoad(){
     alert.style.top="5px";
 }
 
-function closeButton(){
-    this.parentElement.style.display='none';
-}
+
 
 function getLarger(){
     alert.style.width="70%";
@@ -38,7 +38,7 @@ function nixonRight(){
 
 mcgovern.addEventListener("contextmenu", mcgovernRight);
 nixon.addEventListener("contextmenu", nixonRight);
-closebtn.addEventListener("click", closeButton);
+
 window.addEventListener('load', whenLoad);
 alert.addEventListener("mouseenter", getLarger);
 alert.addEventListener("mouseleave", getSmaller);

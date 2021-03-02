@@ -16,7 +16,6 @@
 </head>
 <body>
     <div id="alert">we have detected that you made a bad choice. sign below and press OK to continue
-        <span id="okButton">OK></span>
     </div>
     <h1 id="hone">awww are you sure?<br> lets give it another try...</h1>
     <button type="button" onclick="toggleText()"id='goAgain'>vote again ></button>
@@ -24,7 +23,11 @@
     <div id="afterClick" style="display: none">
             <a href="../voted-for-nixon/votedForNixon.html" id="nixon">VOTE FOR NIXON</a>
             <a id="mcgovern">VOTE FOR MCGOVERN</a>
-    </div>          
+    </div>  
+    <div id="spaceSubmit">
+    <canvas id="space" width="800" height="300"></canvas>
+    <p id="submitSignature">OK></p>
+    </div>
     <script src="wrong-vote-1.js"></script>
 </body>
 </html>

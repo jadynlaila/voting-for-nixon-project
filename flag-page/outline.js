@@ -36,8 +36,6 @@
 ///when page loads, fade in the alert that just says warning. then have a mouse over event that will make it open to read the full text and then the mouse leave will set it back to normal 
 
 
-// A mouse move event listener
-// An object that moves around the page using clientX and clientY
 // A loop that will create several elements at once
 // **not done but set up. just need to find img remember size requirements*** A custom cursor either sometimes or always visible 
 
